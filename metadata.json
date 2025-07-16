@@ -1,0 +1,5 @@
+{
+  "name": "Rental Property Tax Manager",
+  "description": "A full-stack web application to help rental property owners calculate and manage their monthly income and VAT taxes. Orchestrated with Docker.",
+  "requestFramePermissions": []
+}
