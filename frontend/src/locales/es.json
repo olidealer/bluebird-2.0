@@ -36,7 +36,7 @@
   "expenses.upload": "Subir Facturas (XML)",
   "expenses.issuer": "Emisor",
   "expenses.date": "Fecha",
-  "expenses.total": "Monto Total",
+  "expenses.totalAmount": "Monto Total",
   "expenses.vat": "Crédito IVA",
   "expenses.filename": "Archivo",
   "expenses.actions": "Acciones",

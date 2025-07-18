@@ -71,7 +71,7 @@ export const generatePdf = (
   doc.text(t('expenses.title'), 14, lastY + 15);
   autoTable(doc, {
     startY: lastY + 20,
-    head: [[t('expenses.issuer'), t('expenses.date'), t('expenses.total'), t('expenses.vat')]],
+    head: [[t('expenses.issuer'), t('expenses.date'), t('expenses.totalAmount'), t('expenses.vat')]],
     body: expenses.map(exp => [
       exp.issuerName,
       new Date(exp.date).toLocaleDateString(),
