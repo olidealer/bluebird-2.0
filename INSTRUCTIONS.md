@@ -29,6 +29,7 @@ The backend requires a set of environment variables to connect to the database a
 - Navigate to the `backend/` directory.
 - You will find a file named `.env.example`. Make a copy of this file and name it `.env`.
 - Open the new `.env` file and fill in the required values.
+- The `.env` file is ignored by Git, so keep it local and do not commit your secrets.
 
 **Example `backend/.env`:**
 ```
