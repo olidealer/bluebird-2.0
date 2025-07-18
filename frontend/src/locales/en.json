@@ -36,7 +36,7 @@
   "expenses.upload": "Upload Invoices (XML)",
   "expenses.issuer": "Issuer",
   "expenses.date": "Date",
-  "expenses.total": "Total Amount",
+  "expenses.totalAmount": "Total Amount",
   "expenses.vat": "VAT Credit",
   "expenses.filename": "Filename",
   "expenses.actions": "Actions",

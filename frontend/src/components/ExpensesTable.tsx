@@ -50,7 +50,7 @@ const ExpensesTable: React.FC = () => {
             <tr>
               <th className="p-3">{t('expenses.issuer')}</th>
               <th className="p-3">{t('expenses.date')}</th>
-              <th className="p-3 text-right">{t('expenses.total')}</th>
+              <th className="p-3 text-right">{t('expenses.totalAmount')}</th>
               <th className="p-3 text-right">{t('expenses.vat')}</th>
               <th className="p-3">{t('expenses.filename')}</th>
               <th className="p-3 text-center">{t('expenses.actions')}</th>
@@ -66,7 +66,7 @@ const ExpensesTable: React.FC = () => {
                 <tr key={expense.id} className="border-b border-border md:border-b-0">
                   <td data-label={t('expenses.issuer')} className="md:p-3 font-medium md:font-normal">{expense.issuerName}</td>
                   <td data-label={t('expenses.date')} className="md:p-3">{new Date(expense.date).toLocaleDateString()}</td>
-                  <td data-label={t('expenses.total')} className="md:p-3 md:text-right">{expense.totalAmount.toFixed(2)}</td>
+                  <td data-label={t('expenses.totalAmount')} className="md:p-3 md:text-right">{expense.totalAmount.toFixed(2)}</td>
                   <td data-label={t('expenses.vat')} className="md:p-3 md:text-right">{expense.vatAmount.toFixed(2)}</td>
                   <td data-label={t('expenses.filename')} className="md:p-3 truncate">{expense.fileName}</td>
                   <td className="md:p-3 md:text-center actions-cell">
@@ -88,7 +88,7 @@ const ExpensesTable: React.FC = () => {
         {expenses.length > 0 && (
           <div className="md:hidden mt-4 p-4 bg-secondary rounded-lg space-y-2 font-bold">
               <div className="flex justify-between">
-                  <span>{t('expenses.total')} ({t('expenses.total')})</span>
+                  <span>{t('expenses.total')} ({t('expenses.totalAmount')})</span>
                   <span>{totalExpenses.toFixed(2)}</span>
               </div>
               <div className="flex justify-between">
